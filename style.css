@@ -1,0 +1,189 @@
+
+h4 {
+    padding-top: 20px;
+}
+.my-row{
+    overflow: hidden;
+}
+
+[class*='col-']{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.my-col {
+    border: 1px solid rgb(83, 17, 189);
+   
+    
+}
+
+.input-group{
+    display: inline;
+}
+
+.img-fluid {
+ border-radius: 50%;
+}
+.pro-name {
+    margin-left: 50px;
+    font-weight: bold;
+
+    
+  
+    
+}
+
+.list-group list {
+  padding: 20px 10px;
+}
+.Button {
+    margin: 20px 50px;
+    width: 50%;
+    background-color: goldenrod;
+}
+Button:hover {
+    color: blue;
+}
+/*second part*/
+.container {
+   border: 1px solid green;
+}
+/*third part*/
+.heading-button {
+margin-top: 5px;
+}
+
+.sec-image {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+/*
+.coursera-pro  {
+    padding-top: 10px;
+    width: 100%
+    margin-left: 15px;
+}*/
+.circle-image {
+    width: 230;
+    height: 230;
+}
+
+.email-from-to  {
+margin-right: 40%;
+margin-left: 4px;
+font-size: 20px;
+padding-top: 40px;
+padding-bottom: 10px;
+font-weight: bold;
+}
+    
+
+.content {
+    background-color: black;
+    color: white;
+}
+h2 {
+    font-size: 25px;
+}
+.content-img {
+    border-radius: 0%;
+    width: 63%;
+    height: 30%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+    
+}
+section {
+    justify-content: center;
+    margin-left: 75px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+}
+
+@media screen and (min-width:200px) and (max-width:576px){
+ .my-row{
+    display: flex;
+    flex-direction: column-reverse !important;
+ }
+    .col-md-4  {
+    width: 100%;
+    background-color: #b7d7e8;   
+
+}
+.pro-name{
+    font-size: 30px;
+    margin-left:27%;
+}
+.glow {
+    
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffc05c;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #e32934, 0 0 40px #e32934, 0 0 50px #e32934, 0 0 60px #e32934, 0 0 70px #e32934, 0 0 80px#e32934;
+    }
+  }
+
+.text{
+    color: #034f84;
+}
+
+.col-md-6  {
+    display: none;
+}
+
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    .col-md-6 {
+        display: none;
+    }
+    .my-row{
+        display: flex;
+        flex-direction: column-reverse !important;
+    
+
+}
+.col-md-4  {
+    width: 100%;
+    background-color: #b7d7e8;   
+
+}
+.pro-name{
+    font-size: 30px;
+    margin-left:30%;
+}
+.glow {
+    
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00, 0 0 50px #ffcc00, 0 0 60px #ffcc00, 0 0 70px #ffc05c;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #e32934, 0 0 40px #e32934, 0 0 50px #e32934, 0 0 60px #e32934, 0 0 70px #e32934, 0 0 80px#e32934;
+    }
+  }
+
+.text{
+    color: #034f84;
+}
+}
